@@ -1,0 +1,19 @@
+.book{
+  border-radius: 10%;
+  background-color: #ffffd6ff;
+  padding: 5px;
+  transition: box-shadow 0.5s;
+}
+.book:hover{
+  box-shadow: 10px 10px 15px #0000009c;
+}
+
+h3 {
+  margin: 1rem;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,60 @@
+#addBookFormContainer {
+  width: 100%;
+  height: 100%;
+  margin: repeat(4, 1rem);
+}
+
+#addBookForm {
+  width: 99%;
+  height: 100%;
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  row-gap: 1rem;
+  background-color: #ffffd6ff;
+  border-radius: 10%;
+}
+
+.formInputs {
+  width: 80%;
+  height: 2rem;
+  font-size: 1rem;
+  transition: box-shadow 0.5s;
+}
+.formInputs:hover {
+  box-shadow: 10px 10px 15px #0000009c;
+}
+
+#description {
+  width: 80%;
+  height: 2rem;
+  font-size: 1rem;
+  resize: none;
+  transition: box-shadow 0.5s;
+}
+#description:hover {
+  box-shadow: 10px 10px 15px #0000009c;
+}
+
+#addButton {
+  grid-column: 2/4;
+  width: 100%;
+  height: 2rem;
+  background-color: #58cc88ff;
+  border: none;
+  border-radius: 10%;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+#addButton:hover {
+  background-color: #3aae6aff;
+  box-shadow: 10px 10px 15px #0000009c;
+  cursor: pointer;
+}
+
+#formHeader {
+  text-align: center;
+}

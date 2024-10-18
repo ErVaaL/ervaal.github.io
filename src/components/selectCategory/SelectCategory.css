@@ -1,0 +1,43 @@
+#categoryFilter {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#selectorLabel{
+  self-align: center;
+  text-align: center;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#selector {
+  display: grid;
+  width: 10rem;
+  height: 2rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  justify-self: center;
+  margin-bottom: 1rem;
+  background-color: #58cc88ff;
+  border: none;
+  border-radius: 10%;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+#selector:hover {
+  background-color: #3aae6aff;
+  box-shadow: 10px 10px 15px #0000009c;
+  cursor: pointer;
+}
+
+#bookCatalog {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  justify-content: center;
+}

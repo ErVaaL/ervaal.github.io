@@ -1,12 +1,14 @@
 import React from "react";
-import Book from "./Book";
-import data from "../data/books.json";
-import { render } from "../index.js";
-import { root } from "../index.js";
+import Book from "../book/Book";
+import data from "../../data/books.json";
+import { render } from "../../index.js";
+import { root } from "../../index.js";
+import "./SelectCategory.css";
 
 export default function SelectCategory({ books }) {
   return (
     <div id="categoryFilter">
+      <label id="selectorLabel" htmlFor="selector">Filter by category</label>
       <select id="selector" onChange={handleCategoryChange}>
         <option key="all" value="all">
           All
@@ -19,7 +21,7 @@ export default function SelectCategory({ books }) {
           ),
         )}
       </select>
-      <div className="book-catalog">
+      <div className="bookCatalog" id="bookCatalog">
         {books.map((book, i) => (
           <Book className="book" key={i} {...book} />
         ))}
