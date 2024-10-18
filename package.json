@@ -27,6 +27,6 @@
   },
   "scripts": {
     "predeploy": "npm run",
-    "deploy": "gh-pages"
+    "deploy": "gh-pages -d dist"
   }
 }
