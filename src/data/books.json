@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Warriors: Into the Wild",
+    "author": "Erin Hunter",
+    "category": "Fantasy",
+    "description": "Short discription of the book"
+  },
+  {
+    "title": "The Hunger Games",
+    "author": "Suzanne Collins",
+    "category": "Science Fiction",
+    "description": "Short discription of the book"
+  },
+  {
+    "title": "Warriors: Fire and Ice",
+    "author": "Erin Hunter",
+    "category": "Fantasy",
+    "description": "Short discription of the book"
+  }
+]
